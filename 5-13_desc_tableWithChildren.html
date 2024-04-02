@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS3 Selector Basics</title>
+    <style>
+        table > tr > th {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <table border=1>
+        <tr>
+            <th>이름</th>
+            <th>지역</th>
+        </tr>
+        <tr>
+            <th>윤인성</th>
+            <th>서울특별시 강서구 내발산동</th>
+        </tr>
+    </table>
+</body>
+</html>
+
+<!-- 
+웹브라우저가 tbody 태그를 자동으로 추가하므로 스타일 속성이 적용되지 않는다. table 태그에 스타일을 적용할 때는 자손 선택자를 사용하지 않음. -->
