@@ -1,0 +1,18 @@
+.container {
+    width: 70%;
+    margin: auto;
+    padding:0;
+    border-radius: 4px;
+}
+
+.card-header {
+    background-color: lightgray;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.card-body {
+    padding: 10px;
+    border: 1px solid gray;
+    border-top: 0;
+}

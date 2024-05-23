@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('includes/head') %>
+    <title>Enter</title>
+</head>
+<body>
+    <%-include('includes/header') %>
+    <main>
+        <div>
+            <form action="/save" method="post">
+                <div class="form-gruop">
+                    <label >제목</label>   
+                    <input type="text" name="title" class="form-control">
+                </div>
+                <p></p>
+                <div class="form-gruop">
+                    <label for="">내용</label>  
+                    <textarea name="content" id="" rows="10" class="form-control"></textarea>
+                </div>
+                <p></p> 
+                <div class="form-group">
+                    <label for="">작성일</label>
+                    <input type="date" class="form-control" name="someDate">
+                </div>
+                <p></p>
+                <button type="submit" class="btn btn-warning" style="float:right">저장</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
